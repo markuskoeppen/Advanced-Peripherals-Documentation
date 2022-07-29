@@ -27,7 +27,7 @@ It provides several ability:
 | Function                                          | Returns                  | Description                                                                                          |
 | ------------------------------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------- |
 | getFuelLevel()                                    | int                      | Returns stored fuel                                                                                  |
-| getFuelMaxLevel()                                 | int                      | Returns max stored fuel                                                                              |
+| getMaxFuelLevel()                                 | int                      | Returns max stored fuel                                                                              |
 | getConfiguration()                                | table                    | Returns table with related documentation                                                             |
 | lookAtBlock()                                     | table or nil, err        | Returns table with block data at front of turtle                                                     |
 | lookAtEntity()                                    | table or nil, err        | Returns table with entity data at front of turtle                                                    |
